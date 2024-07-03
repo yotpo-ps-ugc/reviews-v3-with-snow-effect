@@ -19,7 +19,7 @@ function App() {
   let InstanceId_ReviewsTab = "";
 
   //Product ID
-  let ProductId = "";
+  let ProductId = "8545149223157";
 
   //Clipboard text here.
   let ClipBoardHeading = "Follow these steps to add this";
@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <div className="wrapper">
-        <div class="accordion" id="accordionExample">
+        {/* <div class="accordion" id="accordionExample"> */}
           <Widget
             instanceid={InstanceId_Widget}
             productid={ProductId}
@@ -123,7 +123,7 @@ function App() {
             instanceid={InstanceId_ReviewsTab} 
             productid={ProductId} 
           />
-        </div>
+        {/* </div> */}
       </div>
     </>
   );
