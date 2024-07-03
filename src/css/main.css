@@ -3,48 +3,23 @@
 /* CLIENT CSS */
 @font-face {
   font-family: Apercu;
-  font-weight: 200 300;
-  src: url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-Light.woff?v=20913981759846774721692029190') format("woff"),url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-Light.woff2?v=115301833236938182451692029190') format("woff2")
-}
-@font-face {
-  font-family: Apercu;
-  font-style: italic;
-  font-weight: 200 300;
-  src: url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-LightItalic.woff?v=68446011202050247651692029190') format("woff"),url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-LightItalic.woff2?v=29235907510290086151692029190') format("woff2")
+  font-weight: 300;
+  src: url('https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-light.woff?v=1679586878') format("woff"),url('https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-light.woff2?v=1679586878') format("woff2")
 }
 @font-face {
   font-family: Apercu;
   font-weight: 400;
-  src: url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu.woff?v=27749520405110232131692029190') format("woff"),url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu.woff2?v=75884663832110848261692029190') format("woff2")
-}
-@font-face {
-  font-family: Apercu;
-  font-style: italic;
-  font-weight: 400;
-  src: url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-Italic.woff?v=167501330633256636311692029190') format("woff"),url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-Italic.woff2?v=24187841215175375051692029190') format("woff2")
+  src: url('https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-regular.woff?v=1679586878') format("woff"),url('https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-regular.woff2?v=1679586878') format("woff2")
 }
 @font-face {
   font-family: Apercu;
   font-weight: 500;
-  src: url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-Medium.woff?v=135256279722417433531692029190') format("woff"),url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-Medium.woff2?v=184125599230595850741692029190') format("woff2")
+  src: url('https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-medium.woff?v=1679586878') format("woff"),url('https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-medium.woff2?v=1679586878') format("woff2")
 }
 @font-face {
   font-family: Apercu;
-  font-style: italic;
-  font-weight: 500;
-  src: url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-MediumItalic.woff?v=166049247236756587401692029190') format("woff"),url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-MediumItalic.woff2?v=88237399669711597011692029190') format("woff2")
-}
-@font-face {
-  font-family: Apercu;
-  font-style: bold;
-  font-weight: 600 700;
-  src: url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-Bold.woff?v=77441056927343755651692029190') format("woff"),url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-Bold.woff2?v=123311489613468491241692029190') format("woff2")
-}
-@font-face {
-  font-family: Apercu;
-  font-style: italic;
-  font-weight: 600 700;
-  src: url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-BoldItalic.woff?v=182358319762879638931692029190') format("woff"),url('https://www.glossier.com/cdn/shop/t/761/assets/Apercu-BoldItalic.woff2?v=21030091884733806711692029190') format("woff2")
+  font-weight: 700;
+  src: url('https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-bold.woff?v=1679586878') format("woff"),url('https://cdn.shopify.com/s/files/1/0627/9164/7477/files/font-apercupro-bold.woff2?v=1679586878') format("woff2")
 }
 
 :root {
