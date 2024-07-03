@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <div className="wrapper">
-        {/* <div class="accordion" id="accordionExample"> */}
+        <div class="accordion" id="accordionExample">
           <Widget
             instanceid={InstanceId_Widget}
             productid={ProductId}
@@ -123,7 +123,7 @@ function App() {
             instanceid={InstanceId_ReviewsTab} 
             productid={ProductId} 
           />
-        {/* </div> */}
+        </div>
       </div>
     </>
   );

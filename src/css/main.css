@@ -48,7 +48,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1120px;
+  max-width: 1450px;
   width: 100%;
   padding: var(--top-wrapper-space) 30px 10px;
   margin: 0 auto;
