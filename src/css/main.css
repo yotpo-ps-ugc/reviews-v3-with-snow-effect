@@ -13,7 +13,8 @@
   background-size: 15%;
   background-repeat: repeat;
   animation: animatedBackground 15s linear infinite;
-  padding: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 @keyframes animatedBackground {
@@ -24,6 +25,44 @@
   100% {
       background-position: 0px 300px;
   }
+}
+
+.yotpo-head .yotpo-reviews-by:after {
+  background-image: url(https://yotpo-ps-ugc.github.io/pub.src/hat.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 40px;
+  background-size: contain;
+  z-index: 10;
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  right: -12px;
+  transform: rotate(15deg);
+}
+
+.yotpo-head .yotpo-reviews-by {
+  position: relative;
+  width: max-content;
+  margin: 0 auto
+}
+
+.yotpo-reviews-main-widget {
+  position: relative;
+}
+
+.yotpo-reviews-main-widget:has([class*="widget"]):before {
+  content: "";
+  width: 350px;
+  height: 350px;
+  background: url(https://yotpo-ps-ugc.github.io/pub.src/snowman.png);
+  background-size: contain;
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  opacity: 0.5;
+  left: 0;
+  margin: 0 auto;
 }
 
 .embedded-promoted-products.pp-embedded-displayed { display: none; }
