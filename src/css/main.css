@@ -66,6 +66,7 @@
 }
 
 .embedded-promoted-products.pp-embedded-displayed { display: none; }
+.yotpo-main-widget-layout:has(.embedded-promoted-products) {padding-top: 40px;}
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
